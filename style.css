@@ -1,11 +1,29 @@
 body {
 	width: 600px;
 	margin: 0 auto;
-	background-color: #ccc;
+	background-color: #eee;
+	color: #444;
+}
+
+h1 {
+	text-align: center;
 }
 
 li {
+	border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+	border-bottom: none;
+}
+
+a {
+	display: block;
 	padding: 20px 50px;
-	border-top: 1px solid #666;
-	border-bottom: 1px solid #666;
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #ddd;
 }
