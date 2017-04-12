@@ -1,9 +1,11 @@
 body {
 	width: 600px;
 	margin: 0 auto;
-	background-color: #aaa;
+	background-color: #ccc;
 }
 
 li {
 	padding: 20px 50px;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
 }
